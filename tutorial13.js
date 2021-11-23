@@ -1,4 +1,4 @@
-console.log('Welcome in tutorial 19');
+console.log('Welcome in tutorial 13');
 
 // Exercise 1
 
@@ -22,3 +22,4 @@ for(let i=0; i<links.length; i++){
         console.log(links[i].href);
     }
 }
+

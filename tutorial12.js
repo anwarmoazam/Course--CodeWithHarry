@@ -1,8 +1,8 @@
 console.log('Welcome in tutorial 12');
 
-let a = document;
+// let a = document;
 
-a = document.all;
+// a = document.all;
 
 // a = document.body;
 
