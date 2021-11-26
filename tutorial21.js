@@ -20,7 +20,6 @@ divDOM.setAttribute('style','border: 2px solid green; width: 200px; margin: 34px
 let container = document.querySelector('.container');
 let first = document.getElementById('myFirst');
 container.insertBefore(divDOM,first);
-// let editableDiv = document.getElementById('editable');
 
 divDOM.addEventListener('click',function(){
     let noTextArea = document.getElementsByClassName('textEdit').length;
