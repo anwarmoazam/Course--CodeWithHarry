@@ -12,7 +12,7 @@ if(a!=undefined){
 try {
     // fgdkloiiij
     console.log("We are inside try block");
-    // functionHarry();
+    functionHarry();
 } catch (error) {
     console.log("Are you okay");
     console.log(error);
