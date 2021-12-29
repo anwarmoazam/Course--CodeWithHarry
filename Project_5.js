@@ -48,7 +48,7 @@ const data = [
         city: 'Jaipur',
         language: 'JavaScript',
         framework: 'Visual Studio',
-        image: 'https://randomuser.me/api/portraits/men/33.jpg'
+        image: 'https://randomuser.me/api/portraits/men/98.jpg'
     }
 
 ]

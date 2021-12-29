@@ -1,6 +1,5 @@
 console.log('This is tutorial 62');
 
-
 function displayClock(){
     let currentTime = new Date();
     let currentHour = currentTime.getHours();
