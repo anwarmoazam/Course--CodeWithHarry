@@ -10,6 +10,7 @@ for(let item of buttons){
         buttonText = e.target.innerText;
         if(buttonText == 'X'){
             buttonText = '*';
+            screenValue = screen.value;
             screenValue += buttonText;
             screen.value = screenValue;
         } else if(buttonText == 'C'){
@@ -18,11 +19,13 @@ for(let item of buttons){
         } else if(buttonText == '='){
             screen.value = eval(screenValue);
         } else if(buttonText == '←'){
-            if(screenValue.length==0){
-                screenValue = "0";
+            screenValue = screen.value;
+            screen.value = screenValue;
+            if(screenValue.length>1){
+                screenValue = screenValue.substring(0, screenValue.length-1);
                 screen.value = screenValue;
             } else{
-                screenValue = screenValue.substring(0, screenValue.length-1);
+                screenValue = "0";
                 screen.value = screenValue;
             }
         } else{
